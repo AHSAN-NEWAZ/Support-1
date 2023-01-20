@@ -1,0 +1,65 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+body{/* font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */}
+
+section{
+    background:blue;
+}
+
+.container{
+    width:1200px;
+    background: orange;
+    margin:auto;
+}
+
+.row{
+    display:flex;
+    
+}
+
+
+#skill .skill_img{
+    width:50%;
+}
+#skill .skill_img img{
+    width:100%;
+}
+
+
+#skill .skill_info{
+    width:50%;
+    text-align:right;
+}
+
+#skill .skill_box_bar{
+    width: 85%;
+}
+#skill .skill_box_bar .skill_box_bar_track{
+    width: 100%;
+    height: 10px;
+    background: red;
+    border-radius: 10px;
+}
+#skill .skill_box_bar .skill_box_bar_track .skill_bar{
+    width: 80%;
+    height: 100%;
+    background: black;
+    margin-left: auto;
+    border-radius: 0 10px 10px 0;
+    text-align: left;
+}
+#skill .skill_box_bar .skill_box_bar_track .skill_bar span{
+    transform: translateY(-20px);
+    display: inline-block;
+}
+#skill .skill_box_img{
+    width: 15%;
+}
